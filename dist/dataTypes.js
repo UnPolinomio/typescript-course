@@ -29,3 +29,13 @@ function infiniteLoop() {
 }
 var nullVariable = null;
 var undefinedVariable = undefined;
+var user = {
+    id: 1234,
+    username: 'Hector',
+    myName: true,
+};
+var user2 = {
+    id: 1234,
+    username: 'Hector',
+    myName: true,
+};

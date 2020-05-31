@@ -52,3 +52,16 @@ let nullVariable: null = null;
 
 // Undefined
 let undefinedVariable: undefined = undefined;
+
+// Object
+let user: object = {
+    id: 1234,
+    username: 'Hector',
+    myName: true,
+} // Items are private
+
+let user2 = {
+    id: 1234,
+    username: 'Hector',
+    myName: true,
+} // Items are public
