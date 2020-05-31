@@ -19,3 +19,12 @@ showHumanInfo({
     age: 15,
     // eyesColor: 'green'
 })
+
+// Extend interfaces
+enum Power {
+    invisibility,
+    fly
+}
+interface SuperHuman extends Human {
+    power: Power
+}
