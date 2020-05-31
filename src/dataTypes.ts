@@ -78,3 +78,16 @@ let matrix: number[][] = [
     [4, 5, 6],
     [7, 8, 9]
 ]
+
+// Enum
+enum SomePosition {
+    x,
+    y,
+}
+const XPos: SomePosition = SomePosition.x
+
+enum Countries {
+    Mexico = 'MX',
+    Colombia = 'CO',
+}
+const myCountry = Countries.Mexico

@@ -48,3 +48,15 @@ var matrix = [
     [4, 5, 6],
     [7, 8, 9]
 ];
+var SomePosition;
+(function (SomePosition) {
+    SomePosition[SomePosition["x"] = 0] = "x";
+    SomePosition[SomePosition["y"] = 1] = "y";
+})(SomePosition || (SomePosition = {}));
+var XPos = SomePosition.x;
+var Countries;
+(function (Countries) {
+    Countries["Mexico"] = "MX";
+    Countries["Colombia"] = "CO";
+})(Countries || (Countries = {}));
+var myCountry = Countries.Mexico;
