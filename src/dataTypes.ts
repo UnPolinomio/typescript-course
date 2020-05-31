@@ -69,3 +69,12 @@ let user2 = {
 // Array
 let users: string[] = ['Hector', 'Franco']
 let someArray: Array<any> = ['Hello', 1, false]
+
+// Tuples
+let aTuple: [number, string] = [12, 'Foo']
+let anotherTuple: [number, string][] = [[1, 'one'], [2, 'two']]
+let matrix: number[][] = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]

@@ -41,3 +41,10 @@ var user2 = {
 };
 var users = ['Hector', 'Franco'];
 var someArray = ['Hello', 1, false];
+var aTuple = [12, 'Foo'];
+var anotherTuple = [[1, 'one'], [2, 'two']];
+var matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
