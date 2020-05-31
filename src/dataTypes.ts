@@ -109,3 +109,8 @@ function getUsernameById(id: IdUser): Username {
 // Literal types
 type Angle = 'pi' | '2pi' | '3pi'
 let myAngle: Angle = 'pi'
+
+// Assertions (Not casted to string)
+let userName: any = 'Hector'
+let isNotEmpty = (<string>username).length > 0
+let isNotEmpty2 = (username as string).length > 0

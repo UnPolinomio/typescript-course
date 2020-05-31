@@ -67,3 +67,6 @@ function getUsernameById(id) {
     return 'Foo';
 }
 var myAngle = 'pi';
+var userName = 'Hector';
+var isNotEmpty = username.length > 0;
+var isNotEmpty2 = username.length > 0;
