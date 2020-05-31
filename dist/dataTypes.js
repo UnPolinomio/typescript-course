@@ -39,3 +39,5 @@ var user2 = {
     username: 'Hector',
     myName: true,
 };
+var users = ['Hector', 'Franco'];
+var someArray = ['Hello', 1, false];

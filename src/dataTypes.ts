@@ -65,3 +65,7 @@ let user2 = {
     username: 'Hector',
     myName: true,
 } // Items are public
+
+// Array
+let users: string[] = ['Hector', 'Franco']
+let someArray: Array<any> = ['Hello', 1, false]
