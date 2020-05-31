@@ -27,3 +27,5 @@ function infiniteLoop() {
         sum++;
     }
 }
+var nullVariable = null;
+var undefinedVariable = undefined;

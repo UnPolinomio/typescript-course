@@ -46,3 +46,9 @@ function infiniteLoop(): never {
         sum++
     }
 }
+
+// Null
+let nullVariable: null = null;
+
+// Undefined
+let undefinedVariable: undefined = undefined;
