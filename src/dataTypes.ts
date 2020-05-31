@@ -91,3 +91,21 @@ enum Countries {
     Colombia = 'CO',
 }
 const myCountry = Countries.Mexico
+
+// Union
+let someValue: string | number = 1
+someValue = '1'
+
+let multipleArray: (string | number)[] = [1, '2', 3]
+
+// Types alias
+type IdUser = string | number
+type Username = string
+function getUsernameById(id: IdUser): Username {
+    // ...
+    return 'Foo'
+}
+
+// Literal types
+type Angle = 'pi' | '2pi' | '3pi'
+let myAngle: Angle = 'pi'

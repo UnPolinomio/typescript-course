@@ -60,3 +60,10 @@ var Countries;
     Countries["Colombia"] = "CO";
 })(Countries || (Countries = {}));
 var myCountry = Countries.Mexico;
+var someValue = 1;
+someValue = '1';
+var multipleArray = [1, '2', 3];
+function getUsernameById(id) {
+    return 'Foo';
+}
+var myAngle = 'pi';
