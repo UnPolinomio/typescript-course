@@ -9,5 +9,4 @@ var Animal = (function () {
     };
     return Animal;
 }());
-var myAnimal = new Animal(12, 'Pedro').toString();
-console.log(myAnimal.toString());
+var myAnimal = new Animal(12, 'Pedro');

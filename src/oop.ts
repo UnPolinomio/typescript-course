@@ -1,6 +1,10 @@
 class Animal {
     id: number;
     name: string;
+    // public noSecret = 'Hello, world';
+    // private secret = 'Hello, world';
+    // readonly secret = 'Hello, world';
+    // #secret = 'Hello, world'; // New syntax, hides this attribute from instances
 
     constructor(id: number, name: string){
         this.id = id
@@ -10,5 +14,4 @@ class Animal {
         return `${this.id} - ${this.name}`
     }
 }
-let myAnimal = new Animal(12, 'Pedro').toString()
-console.log(myAnimal.toString())
+let myAnimal = new Animal(12, 'Pedro')
