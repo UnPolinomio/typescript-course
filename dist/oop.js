@@ -42,5 +42,25 @@ var Pig = (function (_super) {
     };
     return Pig;
 }(Animal));
-var myAnimal = new Pig(12);
-console.log(myAnimal.toString());
+var Coordinate = (function () {
+    function Coordinate(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    return Coordinate;
+}());
+var Point = (function (_super) {
+    __extends(Point, _super);
+    function Point(x, y, name) {
+        var _this = _super.call(this, x, y) || this;
+        _this.name = name ? name : '';
+        return _this;
+    }
+    Point.getDistance = function (pointA, pointB) {
+        return Math.sqrt(Math.pow(pointA.x - pointB.x, 2) + Math.pow(pointA.y - pointB.y, 2));
+    };
+    Point.prototype.distanceTo = function (point) {
+        return Point.getDistance(this, point);
+    };
+    return Point;
+}(Coordinate));
