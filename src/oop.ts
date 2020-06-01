@@ -1,6 +1,6 @@
 class Animal {
-    private _id: number;
-    private _name: string;
+    _id: number;
+    protected _name: string;
     // public noSecret = 'Hello, world';
     // private secret = 'Hello, world';
     // readonly secret = 'Hello, world';
@@ -21,4 +21,15 @@ class Animal {
         this._name = newName
     }
 }
-let myAnimal = new Animal(12, 'Pedro')
+
+class Pig extends Animal {
+    constructor(id: number) {
+        super(id, 'My Pig')
+    }
+    toString() {
+        return this._name
+    }
+}
+
+let myAnimal = new Pig(12)
+console.log(myAnimal.toString())
